@@ -2,11 +2,11 @@ function checkPalinDrome(str){
     let rev = str.split("").reverse().join("");
 
     if(rev == str){
-        return false;
+        return true;
     }
 
-    return true;
+    return false;
 }
 
-let ans = checkPalinDrome("iasai");
+let ans = checkPalinDrome("masai");
 console.log(ans);
